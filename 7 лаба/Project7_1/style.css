@@ -1,0 +1,31 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+article{
+    margin-left:  300px;
+}
+h2{
+    font-size: 40px;
+}
+
+.no_cat {
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    margin: 15px;
+    background-color: rgb(29, 170, 72);
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+.cats {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    width: 450px;
+    margin: 150px auto;
+}
+
+.cat {
+    background-color: rgb(163, 22, 22);
+    border-color: rgb(0, 0, 0);
+}

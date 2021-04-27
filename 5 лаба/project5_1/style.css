@@ -1,0 +1,52 @@
+*{
+    margin:0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: white;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 1080px;
+    background: url(bg.jpg) no-repeat;
+    background-size: cover;
+}
+.real_time{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.real-time_text{
+    margin-bottom: 2rem;
+    font-size: 1rem;
+}
+.real-time_time{
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    width: 100%;
+    display: flex;
+    /* justify-content: space-around; */
+}
+.now_hours{
+    margin-left:50px;
+    margin-right:50px;
+}
+.now_minutes{
+    margin-left:50px;
+    margin-right:50px;
+}
+.now_seconds{
+    margin-left:50px;
+    margin-right:50px;
+}
+
+.real-time_name{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+p{
+    position: relative;
+}
